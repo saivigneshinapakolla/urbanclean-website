@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Clean - Premium Household Services</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Urban Clean Logo">
+                <span>Urban Clean Crew</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+                <button class="book-now-btn">Book Now</button>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 data-aos="fade-up">Find Your Perfect Maid</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Professional cleaning and household services at your fingertips</p>
+            <div class="search-container" data-aos="fade-up" data-aos-delay="400">
+                <div class="search-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" placeholder="Enter your location">
+                </div>
+                <div class="search-box">
+                    <i class="fas fa-broom"></i>
+                    <select>
+                        <option value="">Select Service</option>
+                        <option value="cleaning">Cleaning</option>
+                        <option value="cooking">Cooking</option>
+                        <option value="babysitting">Babysitting</option>
+                        <option value="elderly-care">Elderly Care</option>
+                    </select>
+                </div>
+                <button class="search-btn">Search</button>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="600">
+                <span class="number">1000+</span>
+                <span class="label">Happy Clients</span>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="800">
+                <span class="number">500+</span>
+                <span class="label">Professional Maids</span>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="1000">
+                <span class="number">98%</span>
+                <span class="label">Satisfaction Rate</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Our Premium Services</h2>
+            <p>Choose from our wide range of professional household services</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="service-icon">
+                    <i class="fas fa-broom"></i>
+                </div>
+                <h3>Deep Cleaning</h3>
+                <p>Professional deep cleaning services for your entire home</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Kitchen & Bathroom</li>
+                    <li><i class="fas fa-check"></i> Floor & Carpet</li>
+                    <li><i class="fas fa-check"></i> Windows & Mirrors</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="service-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h3>Meal Preparation</h3>
+                <p>Healthy and delicious meals prepared by expert chefs</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Custom Menu Planning</li>
+                    <li><i class="fas fa-check"></i> Dietary Restrictions</li>
+                    <li><i class="fas fa-check"></i> Grocery Shopping</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="service-icon">
+                    <i class="fas fa-user-nurse"></i>
+                </div>
+                <h3>Elderly Care</h3>
+                <p>Compassionate care for your elderly loved ones</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Medical Assistance</li>
+                    <li><i class="fas fa-check"></i> Daily Activities</li>
+                    <li><i class="fas fa-check"></i> Companionship</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="800">
+                <div class="service-icon">
+                    <i class="fas fa-baby"></i>
+                </div>
+                <h3>Child Care</h3>
+                <p>Professional and experienced childcare services</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Child Development</li>
+                    <li><i class="fas fa-check"></i> Educational Activities</li>
+                    <li><i class="fas fa-check"></i> Safe Environment</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="1000">
+                <div class="service-icon">
+                    <i class="fas fa-paw"></i>
+                </div>
+                <h3>Pet Care</h3>
+                <p>Professional pet care services for your furry friends</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Pet Sitting</li>
+                    <li><i class="fas fa-check"></i> Dog Walking</li>
+                    <li><i class="fas fa-check"></i> Pet Grooming</li>
+                </ul>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="1200">
+                <div class="service-icon">
+                    <i class="fas fa-tshirt"></i>
+                </div>
+                <h3>Laundry Service</h3>
+                <p>Professional laundry and dry cleaning services</p>
+                <ul class="service-features">
+                    <li><i class="fas fa-check"></i> Wash & Fold</li>
+                    <li><i class="fas fa-check"></i> Dry Cleaning</li>
+                    <li><i class="fas fa-check"></i> Ironing Service</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-text" data-aos="fade-right">
+                <h2>Why Choose Urban Clean?</h2>
+                <p>We provide premium household services with a focus on quality, reliability, and customer satisfaction.</p>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <h4>Verified Professionals</h4>
+                            <p>All our maids are thoroughly vetted and background-checked</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>24/7 Availability</h4>
+                            <p>Book services anytime, day or night</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <div>
+                            <h4>Competitive Pricing</h4>
+                            <p>Transparent pricing with no hidden charges</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image" data-aos="fade-left">
+                <img src="images/clean.png" alt="Urban Clean Services" style="width: 100%; height: 400px; object-fit: cover; border-radius: 10px;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="section-header" data-aos="fade-up">
+            <h2>What Our Clients Say</h2>
+            <p>Read testimonials from our satisfied customers</p>
+        </div>
+        <div class="testimonials-slider">
+            <div class="testimonial-card" data-aos="fade-up">
+                <div class="testimonial-content">
+                    <i class="fas fa-quote-left"></i>
+                    <p>"The service was exceptional! The maid was professional and thorough. Highly recommended!"</p>
+                </div>
+                <div class="testimonial-author">
+                    <img src="images/c1.png" alt="Client">
+                    <div>
+                        <h4>K.Praveena</h4>
+                        <p>Homeowner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Our Pricing Plans</h2>
+            <p>Choose the perfect plan for your needs</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="pricing-header">
+                    <h3>Basic</h3>
+                    <div class="price">
+                        <span class="amount">2100</span>
+                        <span class="period">/day</span>
+                    </div>
+                </div>
+                <ul class="pricing-features">
+                    <li><i class="fas fa-check"></i> Basic Cleaning</li>
+                    <li><i class="fas fa-check"></i> Dusting & Vacuuming</li>
+                    <li><i class="fas fa-check"></i> Bathroom Cleaning</li>
+                    <li><i class="fas fa-check"></i> Kitchen Cleaning</li>
+                </ul>
+                <button class="pricing-btn">Choose Plan</button>
+            </div>
+            <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="400">
+                <div class="pricing-header">
+                    <div class="featured-badge">Most Popular</div>
+                    <h3>Premium</h3>
+                    <div class="price">
+                        <span class="amount">2950</span>
+                        <span class="period">/day</span>
+                    </div>
+                </div>
+                <ul class="pricing-features">
+                    <li><i class="fas fa-check"></i> Deep Cleaning</li>
+                    <li><i class="fas fa-check"></i> Window Cleaning</li>
+                    <li><i class="fas fa-check"></i> Carpet Cleaning</li>
+                    <li><i class="fas fa-check"></i> Laundry Service</li>
+                </ul>
+                <button class="pricing-btn">Choose Plan</button>
+            </div>
+            <div class="pricing-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="pricing-header">
+                    <h3>Elite</h3>
+                    <div class="price">
+                        <span class="amount">3700</span>
+                        <span class="period">/day</span>
+                    </div>
+                </div>
+                <ul class="pricing-features">
+                    <li><i class="fas fa-check"></i> All Premium Features</li>
+                    <li><i class="fas fa-check"></i> Meal Preparation</li>
+                    <li><i class="fas fa-check"></i> Child/Elderly Care</li>
+                    <li><i class="fas fa-check"></i> Priority Booking</li>
+                </ul>
+                <button class="pricing-btn">Choose Plan</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header" data-aos="fade-up">
+            <h2>Get in Touch</h2>
+            <p>Have questions? We're here to help!</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Address</h4>
+                        <p>D.No: 2-7-8,Surya Street,Draksharamam</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 9391588556
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>info@urbancleancrew.com</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm" data-aos="fade-left">
+                <div class="form-group">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="phone" id="phone" placeholder="Your Phone">
+                </div>
+                <div class="form-group">
+                    <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+                <div id="formMessage" class="form-message"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Urban Clean Logo">
+                    <span>Urban Clean</span>
+                </div>
+                <!-- <p>Your trusted partner for household services</p> -->
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Cleaning</a></li>
+                    <li><a href="#services">Cooking</a></li>
+                    <li><a href="#services">Babysitting</a></li>
+                    <li><a href="#services">Elderly Care</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Urban Clean. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html> 
